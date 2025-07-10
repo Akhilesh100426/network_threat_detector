@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-from utils.feature_extraction_url import extract_features  # ✅
+from utils.feature_extraction_url import extract_features  
 
 # Load dataset
 df = pd.read_csv("malicious_phish.csv") 
