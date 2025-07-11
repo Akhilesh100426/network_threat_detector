@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ```bash
 python -m utils.train_url_model
-python -m utils.train_realtime_model
+python utils/train_realtime_model.py
 ```
 
 ---
