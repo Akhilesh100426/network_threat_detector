@@ -50,14 +50,15 @@ scapy
 joblib
 pandas
 
-2. ▶️ Run train_url_model.py
+2. ▶️ Train the Models 
   python -m utils.train_url_model
+  python -m utils.train_realtime_model
 
-3. ▶️ Start Packet Sniffer (PyShark-based)
+4. ▶️ Start Packet Sniffer (PyShark-based)
   python utils/pyshark_packet_sniffer.py
   This writes predictions to: logs/sniffer_output.txt
 
-4. 🖥️ Launch Streamlit UI
+5. 🖥️ Launch Streamlit UI
   streamlit run app.py
 
 🧠 Models
