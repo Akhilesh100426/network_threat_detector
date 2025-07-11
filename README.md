@@ -47,15 +47,15 @@ network-threat-detector/
 ## 🚀 Getting Started
 
 ### 1️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
 <details> <summary>Example <code>requirements.txt</code> entries:</summary>
 streamlit
 pyshark
 scapy
 joblib
 pandas
+</details>
 
 
 2. ▶️ Train the Models 
