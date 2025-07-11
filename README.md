@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-### 2️⃣ Train the Models (Optional)
+### 2️⃣ Train the Models (Optional if .pkl already provided)
 
 ```bash
 python -m utils.train_url_model
@@ -66,7 +66,7 @@ python utils/train_realtime_model.py
 
 ---
 
-### 3️⃣ Start Packet Sniffer
+### 3️⃣ Start Packet Sniffer (in a separate terminal)
 
 ```bash
 python utils/pyshark_packet_sniffer.py
