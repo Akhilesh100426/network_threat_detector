@@ -48,7 +48,6 @@ network-threat-detector/
 
 ### 1️⃣ Install Dependencies
 
-```bash
 pip install -r requirements.txt
 
 <details> <summary>Example <code>requirements.txt</code> entries:</summary>
@@ -57,6 +56,7 @@ pyshark
 scapy
 joblib
 pandas
+
 
 2. ▶️ Train the Models 
   python -m utils.train_url_model
