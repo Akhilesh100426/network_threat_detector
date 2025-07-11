@@ -101,5 +101,5 @@ streamlit run app.py
 
 ## 🙋 Author
 
-**Akhilesh**  
+**GONGADI AKHILESH - BAVIGADDA MANI KUMAR REDDY - SIRIVELLA VAMSI KRISHNA**   
 Intel Unnati Internship Project – *AI/ML for Networking*
