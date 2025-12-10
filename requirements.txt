@@ -1,0 +1,6 @@
+streamlit
+pyshark
+joblib
+pandas
+queue
+threading
